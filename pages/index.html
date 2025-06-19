@@ -3,26 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
     <title>AteliêSouza</title>
 </head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8e7;
+    color: #333;
+    line-height: 1.6;
+}
+
+#menu {
+    display: block;
+    background-color: #912218;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: center;
+    gap: 30px;
+    align-items: center;
+    padding: 12px 0;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#menu h1 {
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #F7EDB7;
+}
+.comidas {
+    display: flex;
+    color: #F7EDB7;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#contato {
+    margin-top: 10px;
+    text-decoration:none;
+    color: #432918;
+    justify-content: space-between;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 10px auto;
+    padding: 20px;
+    gap: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+section a {
+    margin: 10px 0;
+    color: #432918;
+    text-decoration: none;
+    font-weight: 600;
+}
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+
+footer {
+    background-color: #E6B051;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer img {
+    width: 32px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+    transition: 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-top: 15px;
+}
+</style>
+
+
 <body>
+    <section id="menu">
     <header>
-        <h1>Ateliê Souza</h1>
-        <nav>
-            <a href="#sobre">Ateliê</a>
-            <div>
-                <a href="#produtos">Produtos</a>
-                    <ul>
-                        <li><a href="#doces">Doces</a></li>
-                        <li><a href="#salgados">Salgados</a></li>
-                        <li><a href="#bolos">Bolos</a></li>
-                        <li><a href="#kits">Kits</a></li>
-                    </ul>
-            </div>
-            <a href="#contato">Contato</a>
-            <a href="#delivery">Delivery</a>
-            <a href="#feedback">Feedback</a>
+<section style="background-color: #9E2B20;">
+    <h1 style="text-align: center;">Ateliê Souza</h1>
+    <div class="comidas">
+                       <a href="#doces" class="comidas">Doces</a> <span style="color: #131212;">|</span>
+                        <a href="#salgados" class="comidas" >Salgados</a> <span style="color: #131212;">|</span>
+                        <a href="#bolos" class="comidas">Bolos</a><span style="color: #131212;">|</span>
+                        <a href="#kits" class="comidas">Kits</a>
+                    </div>
+                    </section>             
+            <section id="contato">
+            <a href="#contato">Contato</a> <span style="color: #131212;">|</span>
+            <a href="#delivery">Delivery</a> <span style="color: #131212;">|</span>
+            <a href="#feedback">Feedback</a> 
+        </section>
         </nav>
+    </section>
     </header>
     <main>
       <section>
