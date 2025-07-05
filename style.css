@@ -14,9 +14,9 @@
 body.dark-mode {
     --primary-color: #9d1f14; /* Cor primária mais escura */
     --secondary-color: #b38b3d; /* Cor secundária ajustada */
-    --accent-color: #c4b68e; /* Destaque mais suave */
-    --text-dark: #fdfaf0; /* Texto claro para o modo escuro */
-    --text-light: #432918; /* Texto escuro para elementos de destaque */
+    --accent-color: #c4b68e; /* Destaque */
+    --text-dark: #fdfaf0; /* Texto claro modo escuro */
+    --text-light: #432918; /* Texto escuro destaque */
     --bg-light: #2c2c2c; /* Fundo principal escuro */
     --bg-white: #3a3a3a; /* Fundo de seções escuro */
     --border-color: #555;
@@ -651,8 +651,8 @@ footer {
 
 footer img {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
 }
 
