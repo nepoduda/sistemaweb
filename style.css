@@ -472,7 +472,7 @@ body.dark-mode .feedback-section textarea {
 
 .produto-categoria-list, .produto-list-bolos {
     display: grid;
-    gap: 40px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: center;
     padding: 20px 0;
@@ -491,7 +491,7 @@ body.dark-mode .feedback-section textarea {
     background-color: var(--bg-white);
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
@@ -512,7 +512,7 @@ body.dark-mode .bolo-card {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .produto-item-group h3, .bolo-card h3 {
@@ -524,7 +524,7 @@ body.dark-mode .bolo-card {
 .produto-item-group h4, .bolo-card h4 {
     font-size: 1.3em;
     color: var(--secondary-color);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .produto-item-group ul, .bolo-card ul {
